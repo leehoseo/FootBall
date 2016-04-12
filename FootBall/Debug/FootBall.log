@@ -1,0 +1,10 @@
+﻿  GoalPost.cpp
+  Game.cpp
+d:\programming\c++\객체지향 football\football\football\game.cpp(45): warning C4101: 'i' :참조되지 않은 지역 변수입니다.
+d:\programming\c++\객체지향 football\football\football\game.cpp(45): warning C4101: 'nLength' :참조되지 않은 지역 변수입니다.
+d:\programming\c++\객체지향 football\football\football\game.cpp(229): warning C4101: 'nRemain' :참조되지 않은 지역 변수입니다.
+  코드를 생성하고 있습니다...
+  건너뛰고 있습니다... (관련된 변경 내용 없음)
+  main.cpp
+  FootBall.vcxproj -> D:\Programming\C++\객체지향 FootBall\FootBall\Debug\FootBall.exe
+  FootBall.vcxproj -> D:\Programming\C++\객체지향 FootBall\FootBall\Debug\FootBall.pdb (Partial PDB)

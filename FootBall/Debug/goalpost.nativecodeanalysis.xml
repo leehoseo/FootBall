@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>d:\programming\c++\객체지향 football\football\football\</FILEPATH>
+      <FILENAME>goalpost.cpp</FILENAME>
+      <LINE>45</LINE>
+      <COLUMN>21</COLUMN>
+    </SFA>
+    <DEFECTCODE>6385</DEFECTCODE>
+    <DESCRIPTION>'this-&gt;m_nArrLineX'에서 잘못된 데이터를 읽고 있습니다.  읽기 가능한 크기는 '28'바이트인데 실제로는 '-4'바이트만 읽을 수 있습니다.</DESCRIPTION>
+    <FUNCTION>GoalPost::Render</FUNCTION>
+    <DECORATED>?Render@GoalPost@@QAEXXZ</DECORATED>
+    <FUNCLINE>38</FUNCLINE>
+    <PROBABILITY>1</PROBABILITY>
+    <RANK>4</RANK>
+    <CATEGORY>
+      <RULECATEGORY>mspft</RULECATEGORY>
+    </CATEGORY>
+    <PATH>
+      <SFA>
+        <FILEPATH>d:\programming\c++\객체지향 football\football\football\</FILEPATH>
+        <FILENAME>goalpost.cpp</FILENAME>
+        <LINE>40</LINE>
+        <COLUMN>21</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\programming\c++\객체지향 football\football\football\</FILEPATH>
+        <FILENAME>goalpost.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>10</COLUMN>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\programming\c++\객체지향 football\football\football\</FILEPATH>
+        <FILENAME>goalpost.cpp</FILENAME>
+        <LINE>42</LINE>
+        <COLUMN>27</COLUMN>
+        <KEYEVENT>
+          <ID>1</ID>
+          <KIND>분기</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>이 루프 건너뛰기, ('index&lt;m_nMaxLength'이(가) false라고 가정)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\programming\c++\객체지향 football\football\football\</FILEPATH>
+        <FILENAME>goalpost.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>2</ID>
+          <KIND>선언</KIND>
+          <IMPORTANCE>Full</IMPORTANCE>
+          <MESSAGE>'m_nArrLineX'은(는) 'Screen::ScreenPrint'(d:\programming\c++\객체지향 football\football\football\screen.h:17에서 선언됨)의 출력입니다.</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+      <SFA>
+        <FILEPATH>d:\programming\c++\객체지향 football\football\football\</FILEPATH>
+        <FILENAME>goalpost.cpp</FILENAME>
+        <LINE>45</LINE>
+        <COLUMN>21</COLUMN>
+        <KEYEVENT>
+          <ID>3</ID>
+          <KIND>사용법</KIND>
+          <IMPORTANCE>Essential</IMPORTANCE>
+          <MESSAGE>'this-&gt;m_nArrLineX[-1]'에서 읽기가 잘못됨, (읽기 가능한 범위는 0에서 6 사이임)</MESSAGE>
+        </KEYEVENT>
+      </SFA>
+    </PATH>
+  </DEFECT>
+</DEFECTS>
